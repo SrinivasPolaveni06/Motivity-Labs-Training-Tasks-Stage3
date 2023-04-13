@@ -1,0 +1,45 @@
+.cheese{
+    z-index: -4;
+    position: absolute;
+}
+.card-container{
+    position: relative;
+    width: 400px;
+}
+img{
+    width: 100%;
+}
+.Logo{
+    width: 50px;
+}
+.olive{
+    z-index: -3;
+    position: absolute;
+}
+.pineapple{
+    z-index: -2;
+    position: absolute;
+}
+.Base{
+    z-index: -5;
+    position: absolute;
+}
+.mushroom{
+    z-index: -1;
+    position: absolute;
+}
+.basil{
+    z-index: 1;
+    position: absolute;
+}
+.tomato{
+    z-index: 2;
+    position: absolute;
+}
+.container3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    background-size: cover;
+}

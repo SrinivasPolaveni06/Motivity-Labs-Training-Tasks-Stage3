@@ -1,0 +1,46 @@
+<div class="container">
+  <h1>{{ title }}</h1>
+  <div>
+    <h2>With Using Pipes</h2>
+    <p>
+      UpperCase Pipe:<b> {{ name | uppercase }}</b>
+    </p>
+    <p>
+      LowerCase Pipe:<b> {{ role | lowercase }}</b>
+    </p>
+    <p>
+      Date Pipe:<b> {{ dateObject | date : "dd-MM-yyyy" }}</b>
+    </p>
+    <p>
+      Currency Pipe:<b> {{ amount | currency : "INR" }}</b>
+    </p>
+    <p>
+      Perntage Pipe:<b> {{ value | percent }}</b>
+    </p>
+    <p>
+      Custome Reverse and Slice Pipe: <b> {{ message | reverseString }}</b>
+    </p>
+  </div>
+
+  <div>
+    <h2>Without Using Pipes</h2>
+    <p>
+      <b>{{ name }}</b>
+    </p>
+    <p>
+      <b>{{ role }}</b>
+    </p>
+    <p>
+      <b>{{ dateObject }}</b>
+    </p>
+    <p>
+      <b>{{ amount }}</b>
+    </p>
+    <p>
+      <b>{{ value }}</b>
+    </p>
+    <p>
+      <b>{{ message }}</b>
+    </p>
+  </div>
+</div>

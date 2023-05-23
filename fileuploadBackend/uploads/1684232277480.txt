@@ -1,0 +1,54 @@
+MongoDb commands
+
+Here are some common MongoDB commands:
+
+Connect to a MongoDB database:
+mongo
+
+=====
+Show available databases:
+show dbs
+
+
+=========
+Create a new database:
+use [database_name]
+
+==============
+Show collections in a database:
+show collections
+
+======================
+Create a new collection:
+db.createCollection([collection_name])
+
+==========================
+Insert a new document into a collection:
+
+db.[collection_name].insert({[document_content]})
+=============================================
+
+Find documents in a collection:
+
+db.[collection_name].find({[query_criteria]})
+
+======================================
+Update documents in a collection:
+
+db.[collection_name].update({[query_criteria]}, {$set: {[update_criteria]}})
+
+=======================================
+Delete documents in a collection:
+
+db.[collection_name].remove({[query_criteria]})
+
+========================================
+Drop a collection:
+
+db.[collection_name].drop()
+
+=======================================
+Drop a database:
+
+use [database_name]
+db.dropDatabase()

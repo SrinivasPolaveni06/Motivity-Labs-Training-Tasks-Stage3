@@ -1,0 +1,23 @@
+.categorysButton{
+    background-color: transparent;
+    border: 0px;
+    text-align: center;
+}
+
+.categoryTitle{
+    font-size: 15px;
+    font-weight: 600;
+
+}
+
+
+.categorysButton:hover{
+    color: #2874f0;
+}
+.categorysImage{
+    width: 60px;
+    transition: all;
+}
+.categorysImage:hover{
+    opacity: 0.7;
+}

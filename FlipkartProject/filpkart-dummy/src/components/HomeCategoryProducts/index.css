@@ -1,0 +1,14 @@
+.rightIcon{
+    color:rgb(18, 17, 17);
+}
+/* .productImage1{
+    transition: all;
+} */
+.productImage1:hover{
+    /* width: 45%; */
+    transform: scale(1.08);
+}
+.productImage2:hover{
+    /* width: 61%; */
+    transform: scale(1.06);
+}

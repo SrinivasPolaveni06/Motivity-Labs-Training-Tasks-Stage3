@@ -1,0 +1,15 @@
+.navContainer{
+    width: 100%;
+}
+.Logout{
+    background-color: transparent;
+    border: 0px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+.user{
+    font-size: 19px;
+    font-weight: 800;
+}
